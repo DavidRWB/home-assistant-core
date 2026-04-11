@@ -77,5 +77,8 @@
         ]
       }
     }
-  }
+  },
+  "mounts": [
+    "source=${localWorkspaceFolder}/homeassistant,target=${containerWorkspaceFolder},type=bind"
+  ]
 }
